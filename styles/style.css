@@ -528,6 +528,8 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
         width: 100%;
     } 
 }
+
+/* MOBILE MEDIA QUERY */
  @media (min-width: 350px) and (max-width: 450px) {
 
     /* SWAP DESKTOP FOR MOBILE IMG */
@@ -585,6 +587,10 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
     .address p {
         display: inline-block; 
         padding: 0 5px;
+    }
+
+    .hello {
+        color: pink;
     }
  }
 
