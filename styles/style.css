@@ -530,7 +530,7 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 }
 
 /* MOBILE MEDIA QUERY */
- @media (min-width: 350px) and (max-width: 450px) {
+ @media (min-width: 320px) and (max-width: 450px) {
 
     /* SWAP DESKTOP FOR MOBILE IMG */
        .desktopImage {
@@ -571,16 +571,16 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
     }
     
     /* FOOTER */
-     footer .contact {
-         width: 95%;
-         border: 2px solid white;
-         text-align: center;
+     .contact {
+        width: 100%;
+        border: 2px solid white;
+        text-align: center;
+        margin: 30px 0;
     }
-     .contact li {
-         text-align: center;
-         width: 50%;
-         float: left;
-         border: 1px red solid;
+    .contact li {
+        text-align: center;
+        width: 50%;
+        float: left;
     }
 
     .contactInfo a,
@@ -589,9 +589,21 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
         padding: 0 5px;
     }
 
-    .hello {
-        color: pink;
+    .pages {
+        width: 100%;
+        margin: 0; 
     }
+
+    .pages li a {
+        width: calc(25% - 5px);
+        float: left;
+        border-right: 1px solid white;
+    }
+
+    .pages ul li:last-of-type a {
+        border: none;
+    }
+    
  }
 
     
