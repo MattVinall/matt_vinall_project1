@@ -262,7 +262,7 @@ section.aboutTasty p {
     float: left;
 }
 .blog img {
-    object-fit: contain;
+    width: 100%;
     min-height: 464px;
 }
 .container1 {
@@ -533,7 +533,7 @@ input[type="email"] {
     /* BLOG */
     .cookingImage,
     .recipesImage {
-        min-height: auto;
+        min-height: auto; 
         width: 100%;
     }
 
