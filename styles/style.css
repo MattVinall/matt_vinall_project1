@@ -5,395 +5,396 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 .visuallyhidden:not(:focus):not(:active) {
-          position: absolute;
-          width: 1px;
-          height: 1px;
-          margin: -1px;
-          border: 0;
-          padding: 0;
-          white-space: nowrap;
-          clip-path: inset(100%);
-          clip: rect(0 0 0 0);
-          overflow: hidden;
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
     }
 
 /* GLOBAL STYLES */
- html, body {
-     font-size: 62.5%;
-     font-family: 'cabin', sans-serif;
-     color: #232323;
+html, body {
+    font-size: 62.5%;
+    font-family: 'cabin', sans-serif;
+    color: #232323;
 }
- h1, h2, h3, h4, p {
-     margin: 0;
+h1, h2, h3, h4, p {
+    margin: 0;
 }
- h1 {
-     font-size: 3.2rem;
-     text-align: center;
-     text-transform: uppercase;
+h1 {
+    font-size: 3.2rem;
+    text-align: center;
+    text-transform: uppercase;
 }
- h2 {
-     font-size: 4.2rem;
-     font-weight: 700;
+h2 {
+    font-size: 4.2rem;
+    font-weight: 700;
 }
- h3{
-     font-size: 3.2rem;
-     margin: 0;
-     text-transform: uppercase;
-     font-weight: bold;
+h3{
+    font-size: 3.2rem;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
 }
- h4 {
-     font-size: 2.4rem;
-     text-transform: uppercase;
-     line-height: 1.6;
+h4 {
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    line-height: 1.6;
 }
- p {
-     font-size: 1.8rem;
-     line-height: 1.6;
+p {
+    font-size: 1.8rem;
+    line-height: 1.6;
 }
- span {
-     display: block;
+span {
+    display: block;
 }
- a {
-     text-decoration: none;
-     font-weight: 700;
-     color: #232323;
-     display: block;
-     text-transform: uppercase;
-     font-weight: 700;
-     text-align: center;
-     font-size: 1.8rem;
+a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #232323;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.8rem;
 }
- .aboutTasty a, .aboutCook a {
-     width: 215px;
-     height: 50px;
-     background: #fdc800;
-     margin: 0 auto;
-     padding: 15px;
+.aboutTasty a, .aboutCook a {
+    width: 215px;
+    height: 50px;
+    background: #fdc800;
+    margin: 0 auto;
+    padding: 15px;
 }
- ul {
-     list-style: none;
-     margin: 0;
-     padding: 0;
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
- .wrapper {
-     max-width: 1280px;
-     margin: 0 auto;
-     border: 2px solid tomato;
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
 }
- img {
-     max-width: 100%;
-     display: block;
+img {
+    max-width: 100%;
+    display: block;
 }
- .mobileImage {
-     display: none;
+.mobileImage {
+    display: none;
 }
 /* HOVER STATES */
- .social i:hover {
-     color: #232323;
-     transition: 400ms ease-in-out;
+.social i:hover {
+    color: #232323;
+    transition: 400ms ease-in-out;
 }
- nav li a:hover {
-     background-color:#fdc800;
-     font-weight: 800;
-     box-shadow: 5px 5px #a9a9a9;
-     transition: 300ms ease-in-out;
+nav li a:hover {
+    background-color:#fdc800;
+    font-weight: 800;
+    box-shadow: 5px 5px #a9a9a9;
+    transition: 300ms ease-in-out;
 }
- .tastyLinks i:hover {
-     color: #fdc800;
-     transition: 400ms ease-in;
+.tastyLinks i:hover {
+    color: #fdc800;
+    transition: 400ms ease-in;
 }
- .blog a:hover, .bio a:hover {
-     background: #232323;
-     color: #fdc800;
-     transition: 400ms ease-in-out;
+.aboutTasty a:hover,
+.blog a:hover,
+.bio a:hover {
+    background: #232323;
+    color: #fdc800;
+    transition: 400ms ease-in-out;
 }
- input#submit:hover {
-     background: #fdc800;
-     color: #f8f8f8;
-     transition: 400ms ease-in-out;
+input#submit:hover {
+    background: #fdc800;
+    color: #f8f8f8;
+    transition: 400ms ease-in-out;
 }
 /* HEADER STYLES */
- header {
-     background-image: url(../assets/image-1@2x.jpg);
-     background-size: cover;
-     background-attachment: fixed;
-     background-repeat: no-repeat;
-     min-height: 100vh;
-     background-position: center;
-     position: relative;
+header {
+    background-image: url(../assets/image-1@2x.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-position: center;
+    position: relative;
 }
- .tastyLogo {
-     float: left;
-     padding-top: 2%;
+.tastyLogo {
+    float: left;
+    padding-top: 2%;
 }
- .tastyLogo h2 {
-     font-family: 'Great Vibes', cursive;
-     font-size: 5rem;
+.tastyLogo h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 5rem;
 }
- .title {
-     position: absolute;
-     top: 40%;
-     left: 50%;
-     transform: translateX(-50%);
+.title {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
 }
- h1 span {
-     font-family: 'Great Vibes', cursive;
-     font-size: 13rem;
-     text-transform: capitalize;
+h1 span {
+    font-family: 'Great Vibes', cursive;
+    font-size: 13rem;
+    text-transform: capitalize;
 }
- .social {
-     color: #fdc800;
-     font-size: 2rem;
-     line-height: 2;
-     position: absolute;
-     left: 95%;
-     top: 40%;
-}
- .hamburgerMenu, #toggle {
-     display: none;
+.social {
+    color: #fdc800;
+    font-size: 2rem;
+    line-height: 2;
+    position: absolute;
+    left: 95%;
+    top: 40%;
 }
 /* NAVIGATION STYLES */
- nav ul {
-     float: right;
-     padding-top: 2%;
+nav ul {
+    float: right;
+    padding-top: 2%;
 }
- nav li {
-     float: left;
-     margin-left: 40px;
+nav li {
+    float: left;
+    margin-left: 40px;
 }
- nav a {
-     padding: 15px 10px;
-     transition: 300ms ease-in;
-     border-radius: 10px;
-     font-size: 2rem;
+nav a {
+    padding: 15px 10px;
+    transition: 300ms ease-in;
+    border-radius: 10px;
+    font-size: 2rem;
+}
+ .hamburgerMenu, #toggle {
+    display: none;
 }
 /* ABOUT TASTY STYLES */
- section.aboutTasty {
-     text-align: center;
-     background: #eaedf4;
-     padding: 75px 0;
+section.aboutTasty {
+    text-align: center;
+    background: #eaedf4;
+    padding: 75px 0;
 }
- section.aboutTasty h2 {
-     font-family: 'Great Vibes', cursive;
-     margin: 0;
-     text-transform: capitalize;
+section.aboutTasty h2 {
+    font-family: 'Great Vibes', cursive;
+    margin: 0;
+    text-transform: capitalize;
 }
- section.aboutTasty p {
-     padding: 30px 0;
-     width: 50%;
-     margin: 0 auto;
+section.aboutTasty p {
+    padding: 30px 0;
+    width: 50%;
+    margin: 0 auto;
 }
 /* TASTY LINKS */
- .tastyLinks {
-     background: #232323;
-     padding: 100px 0;
-     color: #f8f8f8;
-     text-align: center;
+.tastyLinks {
+    background: #232323;
+    padding: 100px 0;
+    color: #f8f8f8;
+    text-align: center;
 }
- .tastyLinks h4 {
-     font-size: 2.4rem;
-     font-weight: 700;
+.tastyLinks h4 {
+    font-size: 2.4rem;
+    font-weight: 700;
 }
- .tastyLinks i.fas {
-     font-size: 4rem;
-     max-width:150px;
-     max-height: 36px;
-     margin-bottom: 35px;
+.tastyLinks i.fas {
+    font-size: 4rem;
+    max-width:150px;
+    max-height: 36px;
+    margin-bottom: 35px;
 }
  .recipes, .cookingTips, .contactIcon {
-     width: 33.33%;
-     float: left;
+    width: 33.33%;
+    float: left;
 }
 /* GALLERY */
- .gallery {
-     padding: 100px 0;
-     background: #f8f8f8;
+.gallery {
+    padding: 100px 0;
+    background: #f8f8f8;
 }
- .galleryItem {
-     width: calc(33.33% - 40px);
-     float: left;
-     margin: 20px;
+.galleryItem {
+    width: calc(33.33% - 40px);
+    float: left;
+    margin: 20px;
 }
 /* BLOG */
- .blog {
-     background: #eaedf4;
+.blog {
+    background: #eaedf4;
      text-align: center;
-     margin: 0 auto;
+    margin: 0 auto;
 }
- .blogWrapper {
-     max-width: 1600px;
-     margin: 0 auto;
+.blogWrapper {
+    max-width: 1600px;
+    margin: 0 auto;
 }
- .cookingInfo {
-     padding: 100px 10% 100px 0;
+.cookingInfo {
+    padding: 100px 10% 100px 0;
 }
- .recipesInfo {
-     padding: 100px 0 100px 10%;
+.recipesInfo {
+    padding: 100px 0 100px 10%;
 }
- .recipesInfo a, .cookingInfo a {
-     width: 150px;
-     height: 50px;
-     background: #fdc800;
-     padding: 15px 0;
-     margin: 0 auto;
+.recipesInfo a, .cookingInfo a {
+    width: 150px;
+    height: 50px;
+    background: #fdc800;
+    padding: 15px 0;
+    margin: 0 auto;
 }
- .recipesImage, .recipesInfo{
-     width: 50%;
-     float: right;
+.recipesImage, .recipesInfo{
+    width: 50%;
+    float: right;
 }
- .cookingInfo, .cookingImage {
-     width: 50%;
-     float: left;
+.cookingInfo, .cookingImage {
+    width: 50%;
+    float: left;
 }
- .cookingInfo p, .recipesInfo p {
-     width: 300px;
-     padding: 30px 0;
-     font-size: 1.8rem;
+.cookingInfo p, .recipesInfo p {
+    width: 300px;
+    padding: 30px 0;
+    font-size: 1.8rem;
 }
- .cookingInfo {
-     text-align: center;
+.cookingInfo {
+    text-align: center;
 }
- .recipesInfo {
-     text-align: center;
+.recipesInfo {
+    text-align: center;
 }
- .cookingImage, .recipesImage {
-     min-height: 464px;
-     float: left;
+.cookingImage, .recipesImage {
+    min-height: 464px;
+    float: left;
 }
- .blog img {
-     object-fit: center;
-     min-height: 464px;
+.blog img {
+    object-fit: contain;
+    min-height: 464px;
 }
- .container1 {
-     width: 300px;
-     float: right;
+.container1 {
+    width: 300px;
+    float: right;
 }
- .container2 {
-     width: 300px;
-     float: left;
+.container2 {
+    width: 300px;
+    float: left;
 }
-/* BIO */
- section.bio {
-     background :#f8f8f8;
-     padding: 100px 0;
+/* BIO */ 
+.bio {
+    background :#f8f8f8;
+    padding: 100px 0;
 }
- .bio h2 {
-     font-family: 'Great Vibes', cursive;
-     font-weight: 300;
+.bio h2 {
+    font-family: 'Great Vibes', cursive;
+    font-weight: 300;
 }
- .bioInfo a {
-     width: 175px;
-     background-color: #fdc800;
-     font-weight: bold;
-     padding: 15px 0;
+.bioInfo a {
+    width: 175px;
+    background-color: #fdc800;
+    font-weight: bold;
+    padding: 15px 0;
 }
- .bioImage, .bioInfo {
-     float: left;
+.bioImage, .bioInfo {
+    float: left;
 }
- .bioInfo {
-     max-width: 65%;
-     margin-left: 5%;
+.bioInfo {
+    max-width: 65%;
+    margin-left: 5%;
 }
- .bioInfo p {
-     padding: 30px 0;
+.bioInfo p {
+    padding: 30px 0;
 }
 /* FOOTER */
- footer {
-     background: #232323;
-     color: #f8f8f8;
+footer {
+    background: #232323;
+    color: #f8f8f8;
 }
- .footerContent {
-     padding: 100px 0;
+.footerContent {
+    padding: 100px 0;
 }
- footer ul {
-     list-style: none;
+footer ul {
+    list-style: none;
 }
- footer a {
-     color: #f8f8f8;
-     font-size: 18px;
-     font-weight: 300;
-     display: block;
-     text-align: left;
-     text-transform: lowercase;
+footer a {
+    color: #f8f8f8;
+    font-size: 18px;
+    font-weight: 300;
+    display: block;
+    text-align: left;
+    text-transform: lowercase;
 }
- .pages a {
-     text-transform: uppercase;
+.pages a {
+    text-transform: uppercase;
 }
- .contact, .pages, .recentPosts {
-     width: 180px;
-     float: left;
-     line-height: 1.6;
+.contact, .pages, .recentPosts {
+    width: 180px;
+    float: left;
+    line-height: 1.6;
 }
- .stayUpdated {
-     float: right;
+.stayUpdated {
+    float: right;
 }
- .stayUpdated p {
-     padding-bottom: 10px;
+.stayUpdated p {
+    padding-bottom: 10px;
 }
- input[type="email"] {
-     width: 480px;
-     height: 50px;
-     font-family: 'cabin';
-     font-size: 1.8rem;
-     color: #232323;
-     padding-left: 30px;
-     float: left;
+input[type="email"] {
+    width: 480px;
+    height: 50px;
+    font-family: 'cabin';
+    font-size: 1.8rem;
+    color: #232323;
+    padding-left: 30px;
+    float: left;
 }
  input#submit {
-     background-color: #fdc800;
-     width: 160px;
-     height: 50px;
-     color: #232323;
-     font-size: 1.8rem;
-     text-transform: uppercase;
-     font-weight: bold;
-     border: none;
+    background-color: #fdc800;
+    width: 160px;
+    height: 50px;
+    color: #232323;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
 }
- .copyright {
-     text-align: center;
-     background: #000;
-     padding: 20px 0;
+.copyright {
+    text-align: center;
+    background: #000;
+    padding: 20px 0;
 }
 /* MEDIA QUERIES */
  @media (max-width: 1380px) {
     /* CHANGE COLOR OF SOCIAL FOR ACCESSIBILITY */
-     .social {
-         color: #232323;
+    .social {
+        color: #232323;
     }
 }
  @media (max-width: 1178px) {
     /* GLOBAL */
-     .wrapper {
-         max-width: 80%;
+    .wrapper {
+        max-width: 80%;
     }
     /* BIO */
-     .bioImage, .bioInfo {
-         float: none;
+    .bioImage, .bioInfo {
+        float: none;
     }
-     .bioImage img, .bioInfo a {
-         margin: 0 auto 
+    .bioImage img, .bioInfo a {
+        margin: 0 auto 
     }
-     .bioInfo {
-         max-width: 100%;
-         text-align: center;
-         margin: 15px 0;
+    .bioInfo {
+        max-width: 100%;
+        text-align: center;
+        margin: 15px 0;
     }
     /* FOOTER */
-     .footerContent p, .footerContent h4, .footerContent a {
-         text-align: center;
+    .footerContent p, .footerContent h4, .footerContent a {
+        text-align: center;
     }
-     .contact {
-         clear: both;
+    .contact {
+        clear: both;
     }
-     .contact, .pages, .recentPosts {
-         width: calc(33.33% - 40px);
-         margin: 20px;
+    .contact, .pages, .recentPosts {
+        width: calc(33.33% - 40px);
+        margin: 20px;
     }
-     .stayUpdated {
+    .stayUpdated {
          width: 100%;
     }
-     .formContainer {
-         width: 90%;
+    .formContainer {
+         width: 100%;
          margin: 0 auto;
     }
      input[type="email"] {
@@ -407,113 +408,126 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
  @media (max-width: 817px) {
     /* GLOBAL */
      .wrapper {
-         max-width: 90%;
+        max-width: 90%;
     }
     /* HEADER */
-     .social {
-         display: none;
+    .social { 
+        display: none;
     }
     /* BLOG */
-     .cookingInfo, .recipesInfo {
-         margin: 0;
-         padding: 100px 0;
+    .cookingInfo, .recipesInfo {
+        margin: 0;
+        padding: 100px 0;
     }
-     .container1, .container2 {
-         margin: 0 auto;
-         float: none;
+    .container1, .container2 {
+        margin: 0 auto;
+        float: none;
     }
-     .recipesImage, .recipesInfo{
-         width: 100%;
-         float: left;
+    .recipesImage, .recipesInfo{
+        width: 100%;
+        float: left;
     }
-     .cookingInfo, .cookingImage {
-         width: 100%;
-         float: left;
+    .cookingInfo, .cookingImage {
+        width: 100%;
+        float: left;
     }
     /* FOOTER */
      .stayUpdated {
-         width: 90%;
-         margin: 0 auto;
-         float: none;
+        width: 90%;
+        margin: 0 auto;
+        float: none;
     }
-     input[type="email"] {
-         text-align: center;
-         padding-left: 0;
-         margin-bottom: 10px;
+    input[type="email"] {
+        text-align: center;
+        padding-left: 0;
+        margin-bottom: 10px;
     }
-     input[type="email"], input#submit {
-         width: 100%;
-         float: none;
+    input[type="email"], input#submit {
+        width: 100%;
+        float: none;
     }
 }
- @media (max-width: 700px) {
-    /* HEADER */
-     .wrapper {
-         max-width: 90%;
+@media (max-width: 700px) {
+    /* HAMBURGER NAV STYLES - ADD OVERLAY GRADIEN WHEN CLICKED */
+    input#toggle {
+        display:none;
     }
-     input#toggle {
-         display:none;
+    label[for="toggle"] {
+        display: block;
+        float: right;
+        font-size: 5rem;
+        color: #232323;
+        width: 50px;
+        height: 23px;
+        cursor: pointer;
     }
-     label[for="toggle"] {
-         display: block;
-         float: right;
-         font-size: 5rem;
-         color: #232323;
-         line-height: 1.5;
-         width: 40px;
-         height: 23px;
-         cursor: pointer;
+    nav ul {
+        display: none;
     }
-     nav ul {
-         display: none;
+    input#toggle:checked + ul {
+        display: block;
+    }
+    nav {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    nav ul {
+        float: none;
+        padding-top: 100px;
+        background: linear-gradient(45deg, rgba(0, 0, 0, 0.3), rgba(219, 198, 6, 0.7)); 
+        height: 100vh;
+        }
+    nav li {
+        float: none;
+    }
+    nav li a {
+        padding: 10px;
+        border-radius: 10px;
+        transition: 500ms ease-in;
+        display: block;
     }
     /* ABOUT TASTY */
-     section.aboutTasty p {
-         width: 75%;
+    section.aboutTasty p {
+    width: 75%;
     }
     /* GALLERY */
-     .gallery {
+    .gallery {
          padding: 0;
     }
-     .gallery .wrapper {
-         max-width: 100%;
+    .gallery .wrapper {
+        max-width: 100%;
     }
-     .galleryItem .deleted {
-         display: none;
+    .galleryItem .deleted {
+        display: none;
     }
-     .galleryItem {
-         width: 50%;
-         margin: auto;
-         float: left;
+    .galleryItem {
+        width: 50%;
+        margin: auto;
+        float: left;
     }
-
     /* BIO IMG SWAP TO MOBILE -- TOO BIG AT THIS SCREEN SIZE */
-
     .bio img.desktopImage {
         display: none;
     }
-
     .bio img.mobileImage {
         display: block;
     }
-    
     /* FOOTER */
-     .recentPosts {
-         display: none;
+    .recentPosts {
+        display: none;
     }
-     .contact, .pages {
-         width: calc(50% - 40px);
-         margin: 20px;
+    .contact, .pages {
+        width: calc(50% - 40px);
+        margin: 20px;
     }
 }
-
   @media (min-width: 350px) and (max-width: 700px) {
-     .wrapper {
-         max-width: 95%;
-    }
-
-     .gallery img.mobileImage {
-         width:100%;
+    
+    .gallery img.mobileImage {
+        width:100%;
     }
 
     /* BLOG */
@@ -531,15 +545,19 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 
 /* MOBILE MEDIA QUERY */
  @media (min-width: 320px) and (max-width: 450px) {
-
-    /* SWAP DESKTOP FOR MOBILE IMG */
-       .desktopImage {
-         display:none;
-    } 
-      .mobileImage {
-         display: block;
-    } 
     
+    /* SWAP DESKTOP FOR MOBILE IMG */
+    .desktopImage {
+        display:none;
+    } 
+    .mobileImage {
+        display: block;
+    }
+    /* ABOUT TASTY */
+
+    .aboutTasty p {
+        width:95%;
+    }
     /* TASTY ICONS */
     .tastyLinks {
         padding: 50px 0;
@@ -563,17 +581,13 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
         min-height: auto;   
         width: 100%;
     }
-
     /* BIO */
     .bio p {
         text-align: left;
-        width: ;
     }
-    
     /* FOOTER */
-     .contact {
+    .contact {
         width: 100%;
-        border: 2px solid white;
         text-align: center;
         margin: 30px 0;
     }
@@ -582,28 +596,37 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
         width: 50%;
         float: left;
     }
-
     .contactInfo a,
     .address p {
         display: inline-block; 
         padding: 0 5px;
     }
-
     .pages {
         width: 100%;
         margin: 0; 
     }
-
     .pages li a {
         width: calc(25% - 5px);
         float: left;
         border-right: 1px solid white;
     }
-
     .pages ul li:last-of-type a {
         border: none;
     }
-    
- }
+}
+
+@media (min-width: 320px) and (max-width: 400px) {
+    /* PUSHES TASTY HEADER FURTHER ALONG VIEWPORT TO MAKE ROOM FOR NAV ON CLICK */
+    .title {
+        top:60%;
+    }
+
+    /* HEADER STYLES */
+    h1 span {
+        font-size: 8rem;      
+    }
+}
+
+ 
 
     
